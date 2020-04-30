@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 /* Header */
 
 nav {
@@ -148,6 +152,15 @@ nav {
 
 .view {
     color: #d35266;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-divider {
+    border: 1px solid #d35266;
 }
 
 
