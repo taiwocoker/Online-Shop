@@ -78,7 +78,7 @@ nav {
 }
 
 .jumbotron {
-    padding: 7rem 2rem;
+    padding: 4rem 2rem;
     background-color: #d35266;
     color: #fff;
 }
@@ -104,6 +104,31 @@ nav {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-left: 1px solid #d35266;
+}
+
+.ads {
+    max-width: 1040px;
+    margin: auto;
+}
+
+#next {
+    color: #d35266 !important;
+    margin-right: 30px; 
+}
+
+#previous {
+    color: #d35266 !important;
+    margin-left: -30px; 
+}
+
+.image-body {
+    margin-left: 20px;
+}
+
+.image-ad {
+    max-width: 100%;
+    width: 100px;
+    height: auto
 }
 
 
