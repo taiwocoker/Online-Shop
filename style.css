@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.main {
+  font-family:
+    Montserrat,
+    Gothic A1,
+    Arial, 
+    Helvetica, 
+    sans-serif,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+nav {
+    background-color: #383838;
+}
+
+.nav-link {
+    color: #888888;
+}
+
+#home,
+.active {
+    color: #d35266;
+}
+
+.nav-image {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.nav-last {
+    display: flex;
+    justify-content: end;
+}
+
+#name {
+    color: #fff;
+}
+
+#post-ad {
+    background-color: #d35266;
+    color: #fff;
+}
+
+.nav-list {
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.jumbotron {
+    padding: 7rem 2rem;
+    background-color: #d35266;
+    color: #fff;
+}
+
+.input-group-prepend {
+    margin-right: -1px;
+    background-color: #fff
+}
+
+.search {
+    background-color: #383838;
+    color: #888888;
+    margin-left: 10px;
+    padding: 0px 16px;
+} 
+
+.title {
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.form-control:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #d35266;
+}
+
+
+
+
+
+
+
+
+
