@@ -81,6 +81,12 @@ nav {
     color: #fff;
 }
 
+.jumbo-wrapper {
+    max-width: 1040px;
+    margin: auto;
+}
+
+
 .input-group-prepend {
     margin-right: -1px;
     background-color: #fff
@@ -94,6 +100,11 @@ nav {
     border: none;
 } 
 
+.result {
+    max-width: 1040px;
+    margin:  0 auto !important;
+}
+
 .head {
     font-family: Montserrat;
     font-weight: bold;
@@ -106,26 +117,20 @@ nav {
     border-left: 1px solid #d35266;
 }
 
-.ads {
-    max-width: 1020px;
-    margin: auto;
+.mt-0 {
+    margin-top: 0 !important;
 }
 
-.car-carousel {
-    max-width : 1200px;
-    margin: auto;
-}
-
-.multi-item,
-#multi-item1,
-#multi-item,
-#multi-item2{
-    display: flex;
-    justify-content: space-between;
-}
 #car {
     min-height: 200px;
     display: flex;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.8rem;
+}
+
+#car:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 .ad-img {
@@ -139,12 +144,8 @@ nav {
     width: 200px;
 } 
 
-.ad-icon {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: #383838;
-    padding: 5px 0;
+.image-body {
+    margin-left: 30px;
 }
 
 i {
@@ -153,88 +154,10 @@ i {
     padding: 0 0.5rem;
 }
 
-.hot {
-    font-family: 'Gothic A1';
-    font-weight: 300;
-    font-size: 1rem;
+.ad-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #383838;
+    padding: 5px 0;
 }
-                    
-.car-carousel {
-    background-color: #f2f2f2;
-}
-
-#next {
-    color: #d35266 !important;
-    margin-right: -150px; 
-    font-size: 20px;
-}
-
-#previous {
-    color: #d35266 !important;
-    margin-left: -150px;
-    font-size: 20px; 
-}
-
-.pink-arrow {
-    border: 1px solid #696969;
-    border-radius: 89px;
-    width: 57px;
-    padding: 15px;
-}
-
-.dark-arrow {
-    border: 1px solid #696969;
-    width: 57px;
-    padding: 15px;
-    color: #000;
-}
-
-.image-body {
-    margin-left: 30px;
-}
-
-.image-ad {
-    max-width: 100%;
-    width: 100px;
-    height: auto
-}
-
-.title {
-    color: #d35266;
-    font-family: 'Gothic A1';
-}
-
-.carousel-btn {
-    background-color: #d35266;
-    color: #fff;
-    padding: 6px 15px;
-}
-
-.car-slide-show {
-    display: flex;
-    justify-content: space-between;
-}
-
-.view {
-    color: #d35266;
-}
-
-.footer-wrapper {
-    display: flex;
-    justify-content: space-around;
-}
-
-#footer-divider {
-    border: 1px solid #d35266;
-}
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;700&family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="search.css" />
+    <title>Search</title>
+</head>
+<body>
+    <header class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand text-white justify-content-between align-items-center">
+            <div class="navbar-nav">
+    <a class="navbar-brand text-white" href="#">
+        <img src="images/logo-2.PNG" width="30" height="30" alt="main-logo"> 
+        AUTOBAY
+    </a>
+    <div class="nav-list">
+        <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-item nav-link active" href="#" id="home"><i class="fas fa-home"></i> HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="#"><i class="far fa-list-alt"></i>  COLLECTIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="#"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" id="post-ad" href="#">POST AN AD</a>
+      </li>
+    </ul>
+    </div>
+    </div>
+  <div class="nav-last">
+      <a class="nav-item nav-link" href="#"><i class="far fa-envelope"></i></a>
+      <a class="nav-item nav-link" id="name" href="#">Taiwo Coker</a>
+</div>
+</nav>
+    </header>
+<main class="container-fluid">
+    <section class="jumbotron">
+        <div class="jumbo-wrapper">
+        <h1 class="head">AUTOBAY</h1>
+        <h6 class="slogan">We are the Standard for Power, Beauty and Control</h6>
+        <div class="input-group w-100">
+         <div class="input-group mb-3">
+  <div class="input-group-prepend all">
+    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Collections</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div role="separator" class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </div>
+     <input type="text" aria-label="First name" class="form-control">
+     <input type="text" aria-label="Last name" class="form-control">
+     <button type="submit" class="search">Search</button>
+</div>
+        
+    </div>
+    </div>
+</section>
+<section class="result">
+    <div class="row mt-0">
+        <div class="col-md-3 border-right">
+            <div class="check">
+                <div class="check-1">
+                    <label class="checkbox-inline"><input type="checkbox" value="">Used</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">New</label>
+                </div>
+                <div class="check-2">
+                    <h4 class="type">Type</h4>
+                    <div class="checkbox"><label><input type="checkbox" value="">4-Door Sedans</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value="">Sports Car</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value="">Convertibles</label></div>
+                </div>
+                <div class="check-3">
+                    <h4 class="brand">Brand</h4>
+                    <div class="checkbox"><label><input type="checkbox" value="">Toyota</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value="">Mercedes-Benz</label></div>
+                    <div class="checkbox-"><label><input type="checkbox" value="">Custom</label>
+                        <span><input class="form-control" id="ex1" type="text"></span>
+                    </div>
+                    </div>
+                <div class="check-4">
+                    <h4 class="price">Price Range</h4>
+                    <div class="checkbox"><label><input type="checkbox" value="">$3000 - $5000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value="">$5000 - $7000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value="">$7000 - $10000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""><i class="fas fa-plus"></i> $10000</label></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 border">
+            <div class="search-result">
+                <h6 class="result-number border-bottom p-2">136 Results for "Sports Car" Search at San Francisco in Category Mercedes Benz</h6>
+                <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+
+      </div>
+      </div>
+    </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+            <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+
+      <div id="car">
+            <div class="ad-img">
+            <img src="images/car-1.jpg" id="image-ad" alt="Audi">
+            <div class="ad-icon">
+                  <a href=""><i class="fas fa-chevron-left"></i></a>
+                  <a href=""><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <h1 class="title">Salon Geneve 2016</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
+          <p class="content-1">By: John Doe</p>
+          <p class="location">Location : San Francisco, CA United States</p>
+          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </div>
+      </div>
+        </div>
+    </div>
+ 
+
+
+
+
+
+</section>
+</main>
+</body>
+</html>
