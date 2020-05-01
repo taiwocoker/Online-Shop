@@ -91,6 +91,7 @@ nav {
     color: #888888;
     margin-left: 10px;
     padding: 0px 16px;
+    border: none;
 } 
 
 .head {
@@ -111,17 +112,71 @@ nav {
 }
 
 .car-carousel {
+    max-width : 1200px;
+    margin: auto;
+}
+
+
+.card {
+    width: 14rem;
+}
+#car {
+    min-height: 200px;
+    display: flex;
+}
+
+.ad-img {
+    position: relative;
+    height: auto;
+    background: white;
+}
+
+#image-ad {
+    height: 100%;
+    width: 200px;
+} 
+
+.ad-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #383838;
+    padding: 5px 0;
+}
+
+i {
+    color: #d35266;
+    font-size: 18px;
+    padding: 0 0.5rem;
+}
+
+.hot {
+    font-family: 'Gothic A1';
+    font-weight: 300;
+    font-size: 1rem;
+}
+                    
+.car-carousel {
     background-color: #f2f2f2;
 }
 
 #next {
     color: #d35266 !important;
-    margin-right: 30px; 
+    margin-right: -150px; 
+    font-size: 20px;
 }
 
 #previous {
     color: #d35266 !important;
-    margin-left: -30px; 
+    margin-left: -150px;
+    font-size: 20px; 
+}
+
+.pink-arrow {
+    border: 1px solid #696969;
+    border-radius: 89px;
+    width: 57px;
+    padding: 15px;
 }
 
 .image-body {
