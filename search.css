@@ -124,9 +124,13 @@ nav {
 #car {
     min-height: 200px;
     display: flex;
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
+    border: 1px solid #dee2e6;
     padding: 0.8rem;
+    margin: 5px 0;
+}
+
+.search-result {
+    border: 1px solid #dee2e6;
 }
 
 #car:nth-child(even) {
@@ -160,4 +164,37 @@ i {
     right: 0;
     background: #383838;
     padding: 5px 0;
+}
+
+.count {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+.count-1 {
+    padding: 10px;
+    width: 35px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin: 5px;
+}
+
+#two {
+    background-color: #d35266;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-divider,
+.view {
+    border: 1px solid #d35266;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
 }

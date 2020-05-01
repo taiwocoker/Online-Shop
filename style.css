@@ -71,7 +71,8 @@ nav {
     margin: 0 5px;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.search-1:hover {
     color: #fff;
 }
 
@@ -93,6 +94,11 @@ nav {
     padding: 0px 16px;
     border: none;
 } 
+
+.search-1 {
+    color: #888888;
+    text-decoration: none;
+}
 
 .head {
     font-family: Montserrat;
