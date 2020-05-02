@@ -44,7 +44,8 @@ nav {
 }
 
 #home,
-.content1 {
+.content1,
+.color {
     color: #d35266;
 }
 
@@ -237,23 +238,27 @@ textarea {
 .copy {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.footer-list {
-    display: flex;
+.text {
+    overflow: auto;
+    resize: none;
+    width: 77px;
+    height: 19px;
+    margin-left: 26px;
 }
 
-.footer-list1 {
-    margin: 0 19px;
+.footer-4-1 {
+    padding: 15px 0;
 }
 
-.list {
-    padding: 15px;
-
+#country {
+    margin-top: 35px;
+    margin-left: 34px;
 }
 
-.list-2 {
-    border: 1px solid #696969;
-    padding: 10px;
-    margin: 5px;
+.footer-2-1,
+.footer-3-1 {
+    border-bottom: 1px solid #d35266;
 }
