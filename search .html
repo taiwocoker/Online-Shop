@@ -81,39 +81,39 @@
     <div class="row mt-0">
         <div class="col-md-3">
             <div class="check">
-                <div class="check-1">
-                    <label class="checkbox-inline"><input type="checkbox" value="">Used</label>
-                    <label class="checkbox-inline"><input type="checkbox" value="">New</label>
+                <div class="check-1 pt-3">
+                    <label class="checkbox-inline"><input class="mr-2" type="checkbox" value="used">Used</label>
+                    <label class="checkbox-inline ml-2"><input class="mr-2" type="checkbox" value="new">New</label>
                 </div>
                 <div class="check-2">
-                    <h4 class="type">Type</h4>
-                    <div class="checkbox"><label><input type="checkbox" value="">4-Door Sedans</label></div>
-                    <div class="checkbox"><label><input type="checkbox" value="">Sports Car</label></div>
-                    <div class="checkbox"><label><input type="checkbox" value="">Convertibles</label></div>
+                    <h5 class="type border-bottom py-2">Type</h5>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="sedan">4-Door Sedans</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="sport">Sports Car</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="convert">Convertibles</label></div>
                 </div>
                 <div class="check-3">
-                    <h4 class="brand">Brand</h4>
-                    <div class="checkbox"><label><input type="checkbox" value="">Toyota</label></div>
-                    <div class="checkbox"><label><input type="checkbox" value="">Mercedes-Benz</label></div>
-                    <div class="checkbox-"><label><input type="checkbox" value="">Custom</label>
-                        <span><input class="form-control" id="ex1" type="text"></span>
+                    <h4 class="brand border-bottom py-2">Brand</h4>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="toyota">Toyota</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="Benz">Mercedes-Benz</label></div>
+                    <div class="checkbox-"><label><input type="checkbox" class="mr-2" value="custom">Custom</label>
+                        <span><textarea name="custom" id="custom" cols="2" rows="1"></textarea></span>
                     </div>
                     </div>
                 <div class="check-4">
-                    <h4 class="price">Price Range</h4>
-                    <div class="checkbox"><label><input type="checkbox" value="">$3000 - $5000</label></div>
-                    <div class="checkbox"><label><input type="checkbox" value="">$5000 - $7000</label></div>
-                    <div class="checkbox"><label><input type="checkbox" value="">$7000 - $10000</label></div>
-                    <div class="checkbox"><label><input type="checkbox" value=""><i class="fas fa-plus"></i> $10000</label></div>
+                    <h4 class="price border-bottom py-2">Price Range</h4>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money">$3000 - $5000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money">$5000 - $7000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money">$7000 - $10000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money"><i class="cross fas fa-plus"></i> $10000</label></div>
                 </div>
             </div>
         </div>
         <div class="col-md-9">
             <div class="search-result">
-                <h6 class="result-number p-2">136 Results for "Sports Car" Search at San Francisco in Category Mercedes Benz</h6>
+                <h6 class="result-number pt-3 pb-2 ">136 Results for "Sports Car" Search at San Francisco in Category 2020 CARS</h6>
                 <div id="car">
             <div class="ad-img">
-            <img src="images/honda7.jpg" id="image-ad" alt="Audi">
+            <img src="images/honda7.jpg" id="image-ad" alt="Honda">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
@@ -121,7 +121,7 @@
             </div>
       <div class="image-body">
           <div class="tp">
-          <h5 class="title">2020 Honda,Automatic with a Wi-Fi hot spot</h5>
+          <h5 class="title">2020 Honda Accord with a Wi-Fi hot spot</h5>
           <a class="plus"><i class="fas fa-plus"></i></a>
           </div>
           <p class="content1">200M, NEW</p>
@@ -140,138 +140,210 @@
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/benz6.jpg" id="image-ad" alt="Audi">
+            <img src="images/benz6.jpg" id="image-ad" alt="Benz">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">2020 Mercedes Benz CLA</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Mercedes-Benz ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">30000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/benz4.jpg" id="image-ad" alt="Audi">
+            <img src="images/benz4.jpg" id="image-ad" alt="Benz">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">Mercedes Benz GLE</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Mercedes-Benz ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">22000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/toyota3.jpg" id="image-ad" alt="Audi">
+            <img src="images/toyota3.jpg" id="image-ad" alt="Toyota">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">TOYOTA COROLLA 2020</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Toyota Corolla ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">21000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/honda2.jpg" id="image-ad" alt="Audi">
+            <img src="images/honda2.jpg" id="image-ad" alt="Honda">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">HONDA CRV</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda CRV ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">15000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/gle.jpg" id="image-ad" alt="Audi">
+            <img src="images/gle.jpg" id="image-ad" alt="Benz">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">Mercedes Benz GLE</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Mercedes-Benz ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">30000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/honda7.jpg" id="image-ad" alt="Audi">
+            <img src="images/honda7.jpg" id="image-ad" alt="Honda">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">HONDA CIVIC</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda Civic ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">17000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
             <div id="car">
             <div class="ad-img">
-            <img src="images/honda5.jpg" id="image-ad" alt="Audi">
+            <img src="images/honda5.jpg" id="image-ad" alt="Honda">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">HONDA i-VTEC</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda i-Vtec ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">20000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
 
       <div id="car">
             <div class="ad-img">
-            <img src="images/toyota2.jpg" id="image-ad" alt="Audi">
+            <img src="images/toyota2.jpg" id="image-ad" alt="Toyota">
             <div class="ad-icon">
                   <a href=""><i class="overlay fas fa-chevron-left"></i></a>
                   <a href=""><i class="overlay fas fa-chevron-right"></i></a>
                 </div>
             </div>
       <div class="image-body">
-          <h1 class="title">Salon Geneve 2016</h1>
-          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique praesentium minus, odit delectus iure. Voluptatum voluptatem exercitationem vel! Quos, eligendi pariatur aperiam consequatur ad vero dignissimos ab autem! Consectetur.</p>
-          <p class="content-1">By: John Doe</p>
-          <p class="location">Location : San Francisco, CA United States</p>
-          <button class="carousel-btn" type="submit">$2000</button><button class="carousel-btn" type="submit"><i class="fas fa-shopping-cart"></i> Purchase details</button>
-        </div>
+          <div class="tp">
+          <h5 class="title">TOYOTA RAV 4</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Toyota ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn" type="submit">22000$</button>
+            </div>
+          </div>
+
+      </div>
       </div>
       <ul class="count">
         <li class="count-1">1</li>

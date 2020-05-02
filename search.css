@@ -104,6 +104,19 @@ nav {
 .result {
     max-width: 1040px;
     margin:  0 auto !important;
+    position: relative;
+    top: -32px;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+    width: 60px;
+    height: 19px;
+}
+
+.cross.fas.fa-plus {
+    font-size: 0.5rem;
 }
 
 .head {
