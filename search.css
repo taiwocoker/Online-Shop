@@ -43,7 +43,8 @@ nav {
     color: #888888;
 }
 
-#home {
+#home,
+.content1 {
     color: #d35266;
 }
 
@@ -145,14 +146,14 @@ nav {
 
 #image-ad {
     height: 100%;
-    width: 200px;
+    width: 250px;
 } 
 
 .image-body {
     margin-left: 30px;
 }
 
-i {
+.overlay {
     color: #d35266;
     font-size: 18px;
     padding: 0 0.5rem;
@@ -164,6 +165,21 @@ i {
     right: 0;
     background: #383838;
     padding: 5px 0;
+}
+
+.plus {
+    border: 1px solid #d9d9d9;
+    color: #888888 !important;
+    font-size: 13px;
+    padding: 0.2rem 0.5rem
+}
+
+.carousel-btn {
+    background-color: #d35266 !important;
+    margin: 0 5px;
+    padding: 3px 10px;
+    border: none;
+    color: #fff;
 }
 
 .count {
@@ -178,6 +194,12 @@ i {
     background-color: #fff;
     border: 1px solid #dee2e6;
     margin: 5px;
+}
+
+.call,
+.tp {
+    display: flex;
+    justify-content: space-between;
 }
 
 #two {

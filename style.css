@@ -144,7 +144,7 @@ nav {
 }
 
 .plus {
-    border: 1px solid #888;
+    border: 1px solid #d9d9d9;
     color: #888888 !important;
     font-size: 18px;
     padding: 0 0.5rem;
@@ -158,7 +158,7 @@ nav {
 
 #image-ad {
     height: 100%;
-    width: 200px;
+    width: 250px;
 } 
 
 .ad-icon {
