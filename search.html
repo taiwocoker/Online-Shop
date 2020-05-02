@@ -18,15 +18,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;700&family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="responsive.css">
     <title>Search</title>
 </head>
 <body>
-    <header class="container-fluid sticky-top">
-        <nav class="navbar navbar-expand text-white justify-content-between align-items-center">
+    <header class="container sticky-top">
+        <nav class="navbar navbar-expand text-white">
             <div class="navbar-nav">
     <a class="navbar-brand text-white" href="#">
-        <img src="images/logo-2.PNG" width="30" height="30" alt="main-logo"> 
+        <img class="main-logo" src="images/logo-2.PNG" alt="main-logo"> 
         AUTOBAY
     </a>
     <div class="nav-list">
@@ -52,7 +53,7 @@
 </div>
 </nav>
     </header>
-<main class="container-fluid border-bottom">
+<main class="container border-bottom">
     <section class="jumbotron">
         <div class="jumbo-wrapper">
         <h1 class="head">AUTOBAY</h1>
@@ -79,7 +80,7 @@
 </section>
 <section class="result">
     <div class="row mt-0">
-        <div class="col-md-3">
+        <div class="col-md-3 check">
             <div class="check">
                 <div class="check-1 pt-3">
                     <label class="checkbox-inline"><input class="mr-2" type="checkbox" value="used">Used</label>
@@ -108,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-12 col-lg-9">
             <div class="search-result">
                 <h6 class="result-number pt-3 pb-2 ">136 Results for "Sports Car" Search at San Francisco in Category 2020 CARS</h6>
                 <div id="car">
@@ -360,11 +361,11 @@
     </section>
 </main>
 
-<footer class="container-fluid">
+<footer class="container">
     <div class="footer-wrapper mt-4">
         <div class="footer-1">
             <h5 class="footer-1-1"><img class="footer-logo head" src="images/Capture.PNG" alt="logo">AUTOBAY</h5>
-            <p class="footer-1-2">Lorem ipsum</p>
+            <p class="footer-1-2">AutoBay offers a Trusted , Reliable and Cost-Effective Marketplace for a range of Quality Vehicles. Filter the search of Vehicles as per various colours, Fuel types and more.</p>
         </div>
         <div class="footer-2">
             <h5 class="footer-2-1 color pb-2">Categories</h5>

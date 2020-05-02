@@ -39,8 +39,20 @@ nav {
     background-color: #383838;
 }
 
-.nav-link {
+.nav-link,
+.social-icons {
     color: #888888;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-logo {
+    width: 30px;
+    height: 30px;
 }
 
 #home {
@@ -74,6 +86,11 @@ nav {
 .nav-link:hover,
 .search-1:hover {
     color: #fff;
+}
+ 
+.input-group {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .jumbotron {
@@ -217,6 +234,24 @@ nav {
     color: #000;
 }
 
+.left-arrow {
+    border: 1px solid #696969;
+    width: 57px;
+    padding: 11px 16px;
+    color: #000;
+    margin-right: 210px !important;
+    font-size: 20px; 
+}
+
+.right-arrow {
+    border: 1px solid #696969;
+    width: 57px;
+    padding: 11px 16px;
+    color: #000;
+    margin-left: 210px !important;
+    font-size: 20px;
+}
+
 .image-body {
     margin-left: 30px;
 }
@@ -287,6 +322,14 @@ nav {
     border-bottom: 1px solid #d35266;
 }
 
+.copyright {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.footer-1-2 {
+    width: 175px;
+}
 
 
 

@@ -39,8 +39,9 @@ nav {
     background-color: #383838;
 }
 
-.nav-link {
-    color: #888888;
+.nav-link,
+.social-icons {
+    color: #888;
 }
 
 #home,
@@ -49,10 +50,21 @@ nav {
     color: #d35266;
 }
 
+.main-logo {
+    width: 25px;
+    height: 25px;
+}
+
 .nav-image {
     width: 26px;
     height: 26px;
     border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-last {
@@ -261,4 +273,13 @@ textarea {
 .footer-2-1,
 .footer-3-1 {
     border-bottom: 1px solid #d35266;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.footer-1-2 {
+    width: 175px;
 }
