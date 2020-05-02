@@ -134,6 +134,22 @@ nav {
     display: flex;
 }
 
+.card-text1 {
+    color: #d35266;
+}
+
+.p {
+    float: inline-end;
+    color: #d35266
+}
+
+.plus {
+    border: 1px solid #888;
+    color: #888888 !important;
+    font-size: 18px;
+    padding: 0 0.5rem;
+}
+
 .ad-img {
     position: relative;
     height: auto;
@@ -153,7 +169,7 @@ nav {
     padding: 5px 0;
 }
 
-i {
+.overlay {
     color: #d35266;
     font-size: 18px;
     padding: 0 0.5rem;
@@ -167,6 +183,12 @@ i {
                     
 .car-carousel {
     background-color: #f2f2f2;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    min-height: 200px;
 }
 
 #next {
