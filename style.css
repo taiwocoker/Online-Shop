@@ -178,6 +178,7 @@ nav {
 .image-ad {
   height: 100%;
   width: 250px;
+  max-width: 100%;
 }
 
 .ad-icon {
@@ -289,10 +290,6 @@ nav {
 .footer-wrapper {
   display: flex;
   justify-content: space-around;
-}
-
-#footer-divider {
-  border: 1px solid #d35266;
 }
 
 .copy {
