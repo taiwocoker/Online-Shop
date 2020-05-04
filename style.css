@@ -23,6 +23,7 @@ body.main {
     Cantarell,
     Georgia,
     serif;
+    width: 100%;
 }
 
 a {
@@ -165,8 +166,8 @@ nav {
 .plus {
   border: 1px solid #d9d9d9;
   color: #888 !important;
-  font-size: 18px;
-  padding: 0 0.5rem;
+  font-size: 13px;
+  padding: 0.2rem 0.4rem;
 }
 
 .ad-img {
@@ -285,6 +286,10 @@ nav {
 .view,
 .color {
   color: #d35266;
+}
+
+footer {
+  padding-bottom: 23px;
 }
 
 .footer-wrapper {
