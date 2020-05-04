@@ -24,7 +24,7 @@ HTML/CSS Capstone Project
 
 ## Live Demo
 
-Link to the application -`https://taiwocoker.github.io/Online-Shop/`
+Link to the application -(https://raw.githack.com/taiwocoker/Online-Shop/online-shop-staging/index.html)
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ Link to the application -`https://taiwocoker.github.io/Online-Shop/`
 
 🤝 Credits
 
-Special credit to Mohammed Awad for the design of the webpage Design Page
+Special credit to Mohammed Awad for the design of the webpage [Design Page](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 🤝Contributing
 
