@@ -164,14 +164,13 @@ a.search:hover {
   color: #d35266;
 }
 
-.p {
-  float: inline-end;
+.no {
   color: #d35266;
 }
 
 .plus {
   border: 1px solid #d9d9d9;
-  color: #888 !important;
+  color: #888;
   font-size: 13px;
   padding: 0.2rem 0.4rem;
 }
@@ -186,6 +185,12 @@ a.search:hover {
   height: 100%;
   width: 250px;
   max-width: 100%;
+}
+
+.ip {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .ad-icon {
@@ -216,18 +221,19 @@ a.search:hover {
 }
 
 #next {
-  color: #d35266 !important;
+  color: #d35266;
   margin-right: -150px;
   font-size: 20px;
 }
 
 #previous {
-  color: #d35266 !important;
+  color: #d35266;
   margin-left: -150px;
   font-size: 20px;
 }
 
 .pink-arrow {
+  color: #d35266;
   border: 1px solid #696969;
   border-radius: 89px;
   width: 57px;
@@ -246,7 +252,7 @@ a.search:hover {
   width: 57px;
   padding: 11px 16px;
   color: #000;
-  margin-right: 210px !important;
+  margin-right: 210px;
   font-size: 20px;
 }
 
@@ -255,7 +261,7 @@ a.search:hover {
   width: 57px;
   padding: 11px 16px;
   color: #000;
-  margin-left: 210px !important;
+  margin-left: 210px;
   font-size: 20px;
 }
 
