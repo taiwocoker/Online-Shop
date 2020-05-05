@@ -4,6 +4,10 @@ HTML/CSS Capstone Project
 ![A Snapshot of the AutoBay's page](/images/snapshot.PNG)
 ![A Snapshot of the Search page](/images/snapshot1.PNG)
 
+## Pages
+1. Home Page
+2. Search Result Page
+
 ## Video Presentation
 `https://www.loom.com/share/9f23500690d3462d91f540e4930e10a4`
 
@@ -29,7 +33,7 @@ Link to the application -(https://raw.githack.com/taiwocoker/Online-Shop/online-
 ## Getting Started
 
 1. Clone this Repo using `https://github.com/taiwocoker/Online-Shop`
-2. Navigate to `localhost:5500/index.html` in your Browser to access the page
+2. Navigate to `localhost:5502/index.html` in your Browser to access the page
 
 ## Authors
 

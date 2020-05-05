@@ -24,6 +24,7 @@ body.main {
     Georgia,
     serif;
     width: 100%;
+    text-overflow: ellipsis;
 }
 
 a {
@@ -114,7 +115,7 @@ nav {
   background-color: #383838;
   color: #888;
   margin-left: 10px;
-  padding: 0 16px;
+  padding: 7px 16px;
   border: none;
 }
 
@@ -256,12 +257,6 @@ nav {
 .image-body {
   margin-left: 30px;
 }
-
-/* .image-ad {
-  max-width: 100%;
-  width: 100px;
-  height: auto;
-} */
 
 .title {
   color: #d35266;
