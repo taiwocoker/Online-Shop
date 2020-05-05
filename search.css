@@ -23,7 +23,7 @@ body.main {
     Cantarell,
     Georgia,
     serif;
-    width: 100%;
+  width: 100%;
 }
 
 a {
@@ -71,7 +71,7 @@ nav {
 .nav-last {
   display: flex;
   justify-content: end;
-} 
+}
 
 #name {
   color: #fff;
@@ -258,13 +258,13 @@ textarea {
 }
 
 .footer-list-1 {
-    margin: 34px 0;
+  margin: 34px 0;
 }
 
 .footer-list-2 {
-    margin: 26px 18px;
-    border: 1px solid #dee2e6;
-    padding: 4px 14px;
+  margin: 26px 18px;
+  border: 1px solid #dee2e6;
+  padding: 4px 14px;
 }
 
 .footer-2-1,

@@ -23,8 +23,8 @@ body.main {
     Cantarell,
     Georgia,
     serif;
-    width: 100%;
-    text-overflow: ellipsis;
+  width: 100%;
+  text-overflow: ellipsis;
 }
 
 a {
@@ -87,6 +87,11 @@ nav {
 
 .search-1 {
   color: #888;
+  text-decoration: none;
+}
+
+a.search:hover {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -303,13 +308,13 @@ footer {
 }
 
 .footer-list-1 {
-    margin: 34px 0;
+  margin: 34px 0;
 }
 
 .footer-list-2 {
-    margin: 26px 18px;
-    border: 1px solid #dee2e6;
-    padding: 4px 14px;
+  margin: 26px 18px;
+  border: 1px solid #dee2e6;
+  padding: 4px 14px;
 }
 
 .footer-2-1,
