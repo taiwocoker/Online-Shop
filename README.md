@@ -8,8 +8,13 @@ HTML/CSS Capstone Project
 1. Home Page
 2. Search Result Page
 
+## Live Demo
+
+[Live Demo link](https://raw.githack.com/taiwocoker/Online-Shop/online-shop-staging/index.html)
+
+
 ## Video Presentation
-`https://www.loom.com/share/9f23500690d3462d91f540e4930e10a4`
+[Video link](https://www.loom.com/share/9f23500690d3462d91f540e4930e10a4)
 
 ## The major features in this project are:
 
@@ -26,14 +31,16 @@ HTML/CSS Capstone Project
 4. Google font
 5. Bootstrap
 
-## Live Demo
-
-Link to the application -(https://raw.githack.com/taiwocoker/Online-Shop/online-shop-staging/index.html)
-
 ## Getting Started
 
-1. Clone this Repo using `https://github.com/taiwocoker/Online-Shop`
+1. Clone this Repo using [this link](https://github.com/taiwocoker/Online-Shop)
 2. Navigate to `localhost:5502/index.html` in your Browser to access the page
+
+Having a web browser, code editor and git.
+
+Install
+
+Just fork it and you are good to go.
 
 ## Authors
 
