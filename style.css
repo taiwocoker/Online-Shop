@@ -24,7 +24,7 @@ body.main {
     Georgia,
     serif;
   width: 100%;
-  text-overflow: ellipsis;
+  overflow-x: hidden;
 }
 
 a {
@@ -57,7 +57,7 @@ nav {
   height: 30px;
 }
 
-#home {
+.home {
   color: #d35266;
 }
 
@@ -72,11 +72,11 @@ nav {
   justify-content: end;
 }
 
-#name {
+.name {
   color: #fff;
 }
 
-#post-ad {
+.post-ad {
   background-color: #d35266;
   color: #fff;
 }
@@ -220,24 +220,24 @@ a.search:hover {
   min-height: 200px;
 }
 
-#next {
-  color: #d35266;
-  margin-right: -150px;
-  font-size: 20px;
-}
-
-#previous {
-  color: #d35266;
-  margin-left: -150px;
-  font-size: 20px;
-}
-
 .pink-arrow {
   color: #d35266;
   border: 1px solid #696969;
   border-radius: 89px;
   width: 57px;
   padding: 15px;
+  margin-left: -254px;
+  font-size: 20px;
+}
+
+.pink-1-arrow {
+  color: #d35266;
+  border: 1px solid #696969;
+  border-radius: 89px;
+  width: 57px;
+  padding: 15px;
+  margin-right: -150px;
+  font-size: 20px;
 }
 
 .dark-arrow {
@@ -274,7 +274,7 @@ a.search:hover {
   font-family: 'Gothic A1', sans-serif;
 }
 
-.carousel-btn {
+.caro-bt {
   background-color: #d35266;
   color: #fff;
   padding: 6px 15px;
@@ -336,3 +336,5 @@ footer {
 .footer-1-2 {
   width: 175px;
 }
+
+

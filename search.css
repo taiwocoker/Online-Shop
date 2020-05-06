@@ -45,7 +45,7 @@ nav {
   color: #888;
 }
 
-#home,
+.home,
 .content1,
 .color {
   color: #d35266;
@@ -73,11 +73,11 @@ nav {
   justify-content: end;
 }
 
-#name {
+.name {
   color: #fff;
 }
 
-#post-ad {
+.post-ad {
   background-color: #d35266;
   color: #fff;
 }
@@ -116,7 +116,7 @@ nav {
 
 .result {
   max-width: 1040px;
-  margin: 0 auto !important;
+  margin: 0 auto;
   position: relative;
   top: -32px;
 }
@@ -144,8 +144,8 @@ textarea {
   border-left: 1px solid #d35266;
 }
 
-.mt-0 {
-  margin-top: 0 !important;
+.m {
+  margin-top: 0;
 }
 
 .car {
@@ -201,13 +201,13 @@ textarea {
 
 .plus {
   border: 1px solid #d9d9d9;
-  color: #888 !important;
+  color: #888;
   font-size: 13px;
   padding: 0.2rem 0.4rem;
 }
 
-.carousel-btn {
-  background-color: #d35266 !important;
+.caro-bt {
+  background-color: #d35266;
   margin: 0 5px;
   padding: 3px 10px;
   border: none;
@@ -234,7 +234,7 @@ textarea {
   justify-content: space-between;
 }
 
-#two {
+.two {
   background-color: #d35266;
 }
 
