@@ -309,15 +309,15 @@ footer {
   align-items: center;
 }
 
-.footer-4 {
+.footer-4-1 {
   display: flex;
 }
 
-.footer-list-1 {
-  margin: 34px 0;
+.footer-l-1 {
+  margin: 32px 14px;
 }
 
-.footer-list-2 {
+.footer-l-2 {
   margin: 26px 18px;
   border: 1px solid #dee2e6;
   padding: 4px 14px;
