@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;700&family=Montserrat:wght@200;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="responsive.css" />
+		<title>AutoBay</title>
+	</head>
+	<body>
+		<header class="container sticky-top">
+			<nav class="navbar navbar-expand text-white">
+				<div class="navbar-nav">
+					<a class="navbar-brand text-white" href="#">
+						<img
+							class="main-logo"
+							src="images/logo-2.PNG"
+							alt="main-logo"
+						/>
+						AUTOBAY
+					</a>
+					<div class="nav-list">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a
+									class="nav-item nav-link active home"
+									href="#"
+									><i class="fas fa-home"></i> HOME<span
+										class="sr-only"
+										>(current)</span
+									></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-item nav-link" href="#"
+									><i class="far fa-list-alt"></i>
+									COLLECTIONS</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-item nav-link" href="#"
+									><i class="fas fa-shopping-cart"></i>
+									PURCHASE LIST</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-item nav-link post-ad"
+							
+									href="#"
+									>POST AN AD</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav-last">
+					<a class="nav-item nav-link" href="#"
+						><i class="far fa-envelope"></i
+					></a>
+					<a class="nav-item nav-link name" href="#"
+						>Taiwo Coker</a
+					>
+					<a class="nav-item nav-link" href="#"
+						><img
+							class="nav-image"
+							src="images/john.jpg"
+							alt="Taiwo Coker"
+					/></a>
+				</div>
+			</nav>
+		</header>
+		<main class="container border-bottom">
+			<div class="jumbotron text-center">
+				<h1 class="head">AUTOBAY</h1>
+				<h6 class="slogan">
+					We are the Standard for Power, Beauty and Control
+				</h6>
+				<div class="input-group pt-5">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend all">
+							<button
+								class="btn dropdown-toggle"
+								type="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								All Collections
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#"
+									>Another action</a
+								>
+								<a class="dropdown-item" href="#"
+									>Something else here</a
+								>
+								<div
+									role="separator"
+									class="dropdown-divider"
+								></div>
+								<a class="dropdown-item" href="#"
+									>Separated link</a
+								>
+							</div>
+						</div>
+						<input
+							type="text"
+							aria-label="First name"
+							class="form-control"
+						/>
+						<input
+							type="text"
+							aria-label="Last name"
+							class="form-control"
+						/>
+						<a class="search" href="search.html">
+							Search</a>
+					</div>
+				</div>
+			</div>
+			<div class="ads">
+				<h4 class="hot">
+					HOT ADS
+				</h4>
+				<div
+					id="carouselExampleControls"
+					class="carousel slide carousel-multi-item"
+					data-ride="carousel"
+				>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="car">
+								<div class="ad-img">
+									<img
+										src="images/honda7.jpg"
+										id="image-ad"
+										alt="Audi"
+									/>
+									<div class="ad-icon">
+										<a href=""
+											><i
+												class="overlay fas fa-chevron-left"
+											></i
+										></a>
+										<a href=""
+											><i
+												class="overlay fas fa-chevron-right"
+											></i
+										></a>
+									</div>
+								</div>
+								<div class="image-body">
+									<h1 class="title">HONDA ACCORD 2020</h1>
+									<p class="content">
+										With a spacious, upscale interior and dynamic performance, the 2020 Honda Accord ranks near the top of the midsize car class. Excellent fuel economy, Great ride and handling.
+									</p>
+									<p class="content-1">By: John Doe</p>
+									<p class="location">
+										Location : San Francisco, CA United
+										States
+									</p>
+									<button class="carousel-btn caro-bt" type="submit">
+										$2000</button
+									><button class="carousel-btn caro-bt" type="submit">
+										<i class="fas fa-shopping-cart"></i>
+										Purchase details
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="car">
+								<div class="ad-img">
+									<img
+										src="images/car-2.jpg"
+										class="image-ad"
+										alt="Mustang"
+									/>
+									<div class="ad-icon">
+										<i class="fas fa-chevron-left"></i>
+										<i class="fas fa-chevron-right"></i>
+									</div>
+								</div>
+								<div class="image-body">
+									<h1 class="title">Salon Geneve 2016</h1>
+									<p class="content">
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Excepturi similique
+										praesentium minus, odit delectus iure.
+										Voluptatum voluptatem exercitationem
+										vel! Quos, eligendi pariatur aperiam
+										consequatur ad vero dignissimos ab
+										autem! Consectetur.
+									</p>
+									<p class="content-1">By: John Doe</p>
+									<p class="location">
+										Location : San Francisco, CA United
+										States
+									</p>
+									<button class="carousel-btn" type="submit">
+										$2000</button
+									><button class="carousel-btn" type="submit">
+										<i class="fas fa-shopping-cart"></i>
+										Purchase details
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="car">
+								<div class="ad-img">
+									<img
+										src="images/car-3.jpg"
+										class="image-ad"
+										alt="Mercedes-Benz"
+									/>
+									<div class="ad-icon">
+										<i class="fas fa-chevron-left"></i>
+										<i class="fas fa-chevron-right"></i>
+									</div>
+								</div>
+								<div class="image-body">
+									<h1 class="title">Salon Geneve 2019</h1>
+									<p class="content">
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Excepturi similique
+										praesentium minus, odit delectus iure.
+										Voluptatum voluptatem exercitationem
+										vel! Quos, eligendi pariatur aperiam
+										consequatur ad vero dignissimos ab
+										autem! Consectetur.
+									</p>
+									<p class="content-1">By: John Doe</p>
+									<p class="location">
+										Location : San Francisco, CA United
+										States
+									</p>
+									<button class="carousel-btn" type="submit">
+										$2000</button
+									><button class="carousel-btn" type="submit">
+										<i class="fas fa-shopping-cart"></i>
+										Purchase details
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						class="carousel-control-prev"
+						id="previous"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="prev"
+					>
+						<i class="fas fa-chevron-left pink-arrow"></i>
+					</a>
+					<a
+						class="carousel-control-next"
+						id="next"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="next"
+					>
+						<i class="fas fa-chevron-right pink-1-arrow"></i>
+					</a>
+				</div>
+			</div>
+			<div class="car-carousel border-top mt-5">
+				<div class="car-slide-show border-bottom mt-5">
+					<p>
+						<i class="fas fa-car"></i> Honda (Accord, CRV, i-Vtec,
+						Civic)
+					</p>
+					<p class="view">View all</p>
+				</div>
+
+				<div
+					
+					class="carousel slide carousel-multi-item mt-4"
+					data-ride="carousel"
+				>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active" id="multi-item2">
+							<div class="col-md d-none d-lg-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/honda7.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">2020 HONDA</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$15000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/honda2.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">2020 HONDA</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$18000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/honda3.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">2020 HONDA</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$20000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/honda4.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">2020 HONDA</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$19000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/honda5.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">2020 HONDA</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$16000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item multi-item-1">
+							<div class="col-md d-none d-lg-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						class="carousel-control-prev"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="prev"
+					>
+						<i
+							class="fas fa-chevron-left dark-arrow left-arrow"
+						></i>
+					</a>
+					<a
+						class="carousel-control-next"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="next"
+					>
+						<i
+							class="fas fa-chevron-right dark-arrow right-arrow"
+						></i>
+					</a>
+				</div>
+
+				<div class="car-slide-show mt-5 border-bottom">
+					<p>
+						<i class="fas fa-car"></i> Toyota (Corolla, Highlander,
+						Camry)
+					</p>
+					<p class="view">View all</p>
+				</div>
+				<div
+				
+					class="carousel slide carousel-multi-item mt-4"
+					data-ride="carousel"
+				>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active" id="multi-item1">
+							<div class="col-md d-none d-lg-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/toyota1.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											2020 TOYOTA HIGHLANDER
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$25000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/toyota2.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											2020 TOYOTA RAV 4
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$26000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/toyota3.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											2020 TOYOTA COROLLA
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$15000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/toyota4.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											2020 TOYOTA CAMRY
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$17000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/toyota5.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											2020 TOYOTA HIGHLANDER
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$26000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item multi-item-1">
+							<div class="col-md d-none d-lg-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						class="carousel-control-prev"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="prev"
+					>
+						<i
+							class="fas fa-chevron-left dark-arrow left-arrow"
+						></i>
+					</a>
+					<a
+						class="carousel-control-next"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="next"
+					>
+						<i
+							class="fas fa-chevron-right dark-arrow right-arrow"
+						></i>
+					</a>
+				</div>
+				<div class="car-slide-show mt-5 border-bottom">
+					<p>
+						<i class="fas fa-car"></i> Mercedes-benz (GLE, CLA,
+						CLS,E-CLASS)
+					</p>
+					<p class="view">View all</p>
+				</div>
+				<div
+					class="carousel slide carousel-multi-item"
+					data-ride="carousel"
+				>
+					<div class="carousel-inner mt-4" role="listbox">
+						<div class="carousel-item active" id="multi-item">
+							<div class="col-md d-none d-lg-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/gle.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											Mercedes-Benz GLE
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$30000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/benz6.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											Mercedes-Benz CLA
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$24000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/benz6.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											Mercedes-Benz E-CLASS
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$20000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/benz3.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											Mercedes-Benz CLS
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$23000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="images/benz4.jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											Mercedes-Benz GLE
+										</h5>
+										<p class="card-text1">New</p>
+										<p class="card-text">
+											From: San Francisco, US
+										</p>
+										<div class="ip">
+										<a class="plus"
+											><i class="fas fa-plus"></i
+										></a>
+										<p class="no">$20000</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item multi-item-1">
+							<div class="col-md d-none d-lg-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md d-none d-md-inline">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md">
+								<div class="card mb-2">
+									<img
+										class="card-img-top"
+										src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+										alt="Card image cap"
+									/>
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">
+											Some quick example text to build on
+											the card title and make up the bulk
+											of the card's content.
+										</p>
+										<a class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						class="carousel-control-prev"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="prev"
+					>
+						<i
+							class="fas fa-chevron-left dark-arrow left-arrow"
+						></i>
+					</a>
+					<a
+						class="carousel-control-next"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="next"
+					>
+						<i
+							class="fas fa-chevron-right dark-arrow right-arrow"
+						></i>
+					</a>
+				</div>
+			</div>
+		</main>
+		<footer class="container">
+			<div class="footer-wrapper mt-4">
+				<div class="footer-1">
+					<h5 class="footer-1-1">
+						<img
+							class="footer-logo head"
+							src="images/Capture.PNG"
+							alt="logo"
+						/>AUTOBAY
+					</h5>
+					<p class="footer-1-2">
+						AutoBay offers a Trusted , Reliable and Cost-Effective
+						Marketplace for a range of Quality Vehicles. Filter the
+						search of Vehicles as per various colours, Fuel types
+						and more.
+					</p>
+				</div>
+				<div class="footer-2">
+					<h5 class="footer-2-1 color pb-2">Categories</h5>
+					<ul class="footer-2-2">
+						<li class="footer-2-2-1">2020 CARS</li>
+						<li class="footer-2-2-1">BMW</li>
+						<li class="footer-2-2-1">Chrevolet</li>
+						<li class="footer-2-2-1">Dodge</li>
+						<li class="footer-2-2-1">Ferrari</li>
+						<li class="footer-2-2-1">Geely</li>
+						<li class="footer-2-2-1">Honda</li>
+						<li class="footer-2-2-1">Toyota</li>
+						<li class="footer-2-2-1">Mercedes-Benz</li>
+					</ul>
+				</div>
+				<div class="footer-3">
+					<h5 class="footer-3-1 color pb-2">Navigation</h5>
+					<ul class="footer-3-2">
+						<li class="footer-3-2-1">Home</li>
+						<li class="footer-3-2-1">Sign-in</li>
+						<li class="footer-3-2-1">Sign-up</li>
+						<li class="footer-3-2-1">Terms and Conditions</li>
+						<li class="footer-3-2-1">FAQ</li>
+						<li class="footer-3-2-1">Help</li>
+					</ul>
+				</div>
+				<div class="footer-4">
+					
+					<ul class="footer-4-1">
+						<li class="footer-4-1-1 footer-l-1">COUNTRY</li>
+						<li class="footer-4-1-1 footer-l-2">Nigeria</li>
+					</ul>
+					<ul class="footer-4-1">
+						<li class="footer-4-1-1 footer-l-1">LANGUAGE</li>
+						<li class="footer-4-1-1 footer-l-2">English</li>
+					</ul>
+					<ul class="footer-4-1">
+						<li class="footer-4-1-1 footer-l-1">CURRENCY</li>
+						<li class="footer-4-1-1 footer-l-2">US Dollar</li>
+					</ul>
+				</div>
+			</div>
+			<hr/>
+			<div class="copy">
+				<div class="copyright">
+					Copyright&copy; 2020 AutoBay.com All Rights Reserved.
+					Designed by Taiwo Coker.
+				</div>
+				<div class="social-icons pt-2 ml-4">
+					<span><i class="p-2 fab fa-lg fa-yahoo"></i></span>
+					<span><i class="p-2 fab fa-lg fa-instagram"></i></span>
+					<span><i class="p-2 fab fa-lg fa-linkedin-in"></i></span>
+					<span><i class="p-2 fab fa-lg fa-twitter"></i></span>
+					<span
+						><i class="p-2 fab fa-lg fa-facebook-square"></i
+					></span>
+				</div>
+			</div>
+		</footer>
+
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  -->
+	</body>
+</html>

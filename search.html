@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;700&family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Search</title>
+</head>
+<body>
+    <header class="container sticky-top">
+        <nav class="navbar navbar-expand text-white">
+            <div class="navbar-nav">
+    <a class="navbar-brand text-white" href="#">
+        <img class="main-logo" src="images/logo-2.PNG" alt="main-logo"> 
+        AUTOBAY
+    </a>
+    <div class="nav-list">
+        <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-item nav-link active home" href="index.html"><i class="fas fa-home"></i> HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="#"><i class="far fa-list-alt"></i>  COLLECTIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="#"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link post-ad" href="#">POST AN AD</a>
+      </li>
+    </ul>
+    </div>
+    </div>
+  <div class="nav-last">
+      <a class="nav-item nav-link" href="#"><i class="far fa-envelope"></i></a>
+      <a class="nav-item nav-link name" href="#">Taiwo Coker</a>
+</div>
+</nav>
+    </header>
+<main class="container border-bottom">
+    <section class="jumbotron">
+        <div class="jumbo-wrapper">
+        <h1 class="head">AUTOBAY</h1>
+        <h6 class="slogan">We are the Standard for Power, Beauty and Control</h6>
+        <div class="input-group w-100">
+         <div class="input-group mb-3">
+  <div class="input-group-prepend all">
+    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Collections</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div role="separator" class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </div>
+     <input type="text" aria-label="First name" class="form-control">
+     <input type="text" aria-label="Last name" class="form-control">
+     <button type="submit" class="search">Search</button>
+</div>
+        
+    </div>
+    </div>
+</section>
+<section class="result">
+    <div class="row mt-0 m">
+        <div class="col-md-3 check">
+            <div class="check">
+                <div class="check-1 pt-3">
+                    <label class="checkbox-inline"><input class="mr-2" type="checkbox" value="used">Used</label>
+                    <label class="checkbox-inline ml-2"><input class="mr-2" type="checkbox" value="new">New</label>
+                </div>
+                <div class="check-2">
+                    <h5 class="type border-bottom py-2">Type</h5>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="sedan">4-Door Sedans</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="sport">Sports Car</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="convert">Convertibles</label></div>
+                </div>
+                <div class="check-3">
+                    <h4 class="brand border-bottom py-2">Brand</h4>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="toyota">Toyota</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="Benz">Mercedes-Benz</label></div>
+                    <div class="checkbox-"><label><input type="checkbox" class="mr-2" value="custom">Custom</label>
+                        <span><textarea name="custom" id="custom" cols="2" rows="1"></textarea></span>
+                    </div>
+                    </div>
+                <div class="check-4">
+                    <h4 class="price border-bottom py-2">Price Range</h4>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money">$3000 - $5000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money">$5000 - $7000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money">$7000 - $10000</label></div>
+                    <div class="checkbox"><label><input type="checkbox" class="mr-2" value="money"><i class="cross fas fa-plus"></i> $10000</label></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-9">
+            <div class="search-result">
+                <h6 class="result-number pt-3 pb-2 ">136 Results for "Sports Car" Search at San Francisco in Category 2020 CARS</h6>
+                <div class="car">
+            <div class="ad-img">
+            <img src="images/honda7.jpg" class="image-ad" alt="Honda">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">2020 Honda Accord with a Wi-Fi hot spot</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda Accord ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">Give me a call</button><button class="carousel-btn caro-bt" type="submit">24000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+    
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/benz6.jpg" class="image-ad" alt="Benz">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">2020 Mercedes Benz CLA</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Mercedes-Benz ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">30000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/benz4.jpg" class="image-ad" alt="Benz">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">Mercedes Benz GLE</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Mercedes-Benz ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">22000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/toyota3.jpg" class="image-ad" alt="Toyota">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">TOYOTA COROLLA 2020</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Toyota Corolla ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">21000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/honda2.jpg" class="image-ad" alt="Honda">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">HONDA CRV</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda CRV ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">15000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/gle.jpg" class="image-ad" alt="Benz">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">Mercedes Benz GLE</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Mercedes-Benz ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">30000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/honda7.jpg" class="image-ad" alt="Honda">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">HONDA CIVIC</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda Civic ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">17000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+            <div class="car">
+            <div class="ad-img">
+            <img src="images/honda5.jpg" class="image-ad" alt="Honda">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">HONDA i-VTEC</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Honda i-Vtec ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">20000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+      <div class="car">
+            <div class="ad-img">
+            <img src="images/toyota2.jpg" class="image-ad" alt="Toyota">
+            <div class="ad-icon">
+                  <a href=""><i class="overlay fas fa-chevron-left"></i></a>
+                  <a href=""><i class="overlay fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+      <div class="image-body">
+          <div class="tp">
+          <h5 class="title">TOYOTA RAV 4</h5>
+          <a class="plus"><i class="fas fa-plus"></i></a>
+          </div>
+          <p class="content1">200M, NEW</p>
+          <p class="content">With a spacious, upscale interior and dynamic performance, the 2020 Toyota ranks near the top of the midsize car class...</p>
+          <p class="location">Location : <span class="content">21 Start Street, San Francisco, CA United States</span></p>
+          <div class="call">
+            <p class="time content">23 April,2020</p>
+            <div class="but">
+          <button class="carousel-btn caro-bt" type="submit">22000$</button>
+            </div>
+          </div>
+
+      </div>
+      </div>
+      <ul class="count">
+        <li class="count-1">1</li>
+        <li class="count-1 two">2</li>
+        <li class="count-1">3</li>
+        <li class="count-1">4</li>
+        <li class="count-1" id="dot">...</li>
+        <li class="count-1">7</li>
+    </ul>
+        </div>
+        </div>
+        
+    </div>
+    </section>
+</main>
+
+<footer class="container">
+    <div class="footer-wrapper mt-4">
+        <div class="footer-1">
+            <h5 class="footer-1-1"><img class="footer-logo head" src="images/Capture.PNG" alt="logo">AUTOBAY</h5>
+            <p class="footer-1-2">AutoBay offers a Trusted , Reliable and Cost-Effective Marketplace for a range of Quality Vehicles. Filter the search of Vehicles as per various colours, Fuel types and more.</p>
+        </div>
+        <div class="footer-2">
+            <h5 class="footer-2-1 color pb-2">Categories</h5>
+            <ul class="footer-2-2">
+                <li class="footer-2-2-1">2020 CARS</li>
+                <li class="footer-2-2-1">BMW</li>
+                <li class="footer-2-2-1">Chrevolet</li>
+                <li class="footer-2-2-1">Dodge</li>
+                <li class="footer-2-2-1">Ferrari</li>
+                <li class="footer-2-2-1">Geely</li>
+                <li class="footer-2-2-1">Honda</li>
+                <li class="footer-2-2-1">Toyota</li>
+                <li class="footer-2-2-1">Mercedes-Benz</li>
+            </ul>
+        </div>
+        <div class="footer-3">
+            <h5 class="footer-3-1 color pb-2">Navigation</h5>
+            <ul class="footer-3-2">
+                <li class="footer-3-2-1">Home</li>
+                <li class="footer-3-2-1">Sign-in</li>
+                <li class="footer-3-2-1">Sign-up</li>
+                <li class="footer-3-2-1">Terms and Conditions</li>
+                <li class="footer-3-2-1">FAQ</li>
+                <li class="footer-3-2-1">Help</li>
+            </ul>
+        </div>
+        <div class="footer-4">
+            <ul class="footer-4-1">
+						<li class="footer-4-1-1 footer-l-1">COUNTRY</li>
+						<li class="footer-4-1-1 footer-l-2">Nigeria</li>
+					</ul>
+					<ul class="footer-4-1">
+						<li class="footer-4-1-1 footer-l-1">LANGUAGE</li>
+						<li class="footer-4-1-1 footer-l-2">English</li>
+					</ul>
+					<ul class="footer-4-1">
+						<li class="footer-4-1-1 footer-l-1">CURRENCY</li>
+						<li class="footer-4-1-1 footer-l-2">US Dollar</li>
+					</ul>
+        </div>
+    </div>
+    <hr id="footer-divider">
+    <div class="copy">
+        <div class="copyright">Copyright&copy; 2020 AutoBay.com All Rights Reserved. Designed by Taiwo Coker.</div>
+            <div class="social-icons pt-2 ml-4">
+                <span><i class="p-2 fab fa-lg fa-yahoo"></i></span>
+                <span><i class="p-2 fab fa-lg fa-instagram"></i></span>
+                <span><i class="p-2 fab fa-lg fa-linkedin-in"></i></span>
+                <span><i class="p-2 fab fa-lg fa-twitter"></i></span>
+                <span><i class="p-2 fab fa-lg fa-facebook-square"></i></span>
+            </div>
+        </div>
+        <hr class="footer-divider">
+    </footer>
+</body>
+</html>
